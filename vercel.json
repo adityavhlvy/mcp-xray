@@ -1,0 +1,10 @@
+{
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/tools/mcp-xray", "destination": "/" },
+    { "source": "/tools/mcp-xray/:path*", "destination": "/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

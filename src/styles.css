@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@adityavhlvy/design-system/tokens.css";
+
+@source "../node_modules/@adityavhlvy/design-system/dist";
+
+@layer components {
+  /* The shared label is mixed case. The tool's data labels are uppercase. */
+  .label {
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  /* The QR sits on its own white plate in both themes, because scanners need
+     the light background no matter how the page is themed. */
+  .qr-plate {
+    background: #ffffff;
+    box-shadow: 0 0 0 1px var(--line);
+  }
+}
