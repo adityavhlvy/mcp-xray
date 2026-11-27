@@ -13,7 +13,7 @@
     "e2e": "bun run scripts/e2e.ts"
   },
   "dependencies": {
-    "@adityavhlvy/design-system": "github:adityavhlvy/design-system#v1",
+    "@adityavhlvy/design-system": "github:adityavhlvy/design-system#v1.1.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.42.2",
     "react": "^19.2.7",
